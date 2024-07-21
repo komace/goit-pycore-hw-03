@@ -5,7 +5,7 @@ def get_upcoming_birthdays(users: list[dict]) -> list[dict]:
     today = datetime.today().date()
     # обчислюємо дату яка буде через 7 днів за допомогою класу timedelta
     next_week = today + timedelta(days=7)
-    # задаємо зміну пуст
+    # задаємо зміну пусту
     upcoming_birthdays = []
     
     # використовуємо цикл для перевірки днів народження
